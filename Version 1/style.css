@@ -1,0 +1,80 @@
+body {
+    font-family: "Work-Sans", sans-serif;
+    background-color: rgba(255, 226, 214, 1);
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0 5rem;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    background-color: rgba(57, 57, 58, 1);
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%
+}
+
+/***********************************************************************
+ *  Web-Page Content Box
+ **********************************************************************/
+
+.content-box {
+    height: 1000px;
+    padding: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: white;
+    border: 2px solid rgba(57, 57, 58, 1);
+    box-shadow: 1px;
+}
+
+
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container {
+    /*show height: auto*/
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:60px;
+}
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    font-size: 0.7em;
+    line-height: 0.5em;
+    margin: 1rem;
+    display: flex;
+    justify-content:center;
+}
