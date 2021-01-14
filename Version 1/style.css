@@ -9,7 +9,7 @@ body {
 .main-nav {
     display: flex;
     list-style: none;
-    margin: 0 5rem;
+    margin: 0 10rem;
     padding: 0 0.5rem;
     font-size: 1rem;
     background-color: rgba(57, 57, 58, 1);
@@ -48,8 +48,8 @@ a {
 .content-box {
     height: 1000px;
     padding: 20px;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     background-color: white;
     border: 2px solid rgba(57, 57, 58, 1);
     box-shadow: 1px;
