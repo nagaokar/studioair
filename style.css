@@ -135,7 +135,7 @@ a:hover {
 }
 
 .box {
-    background-color: #444;
+    background-color: rgba(57, 57, 58, 1);
     padding: 130px;
     margin: 20px;
 }
