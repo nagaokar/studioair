@@ -24,7 +24,7 @@ body {
 }
 
 .push {
-    margin-left: auto;
+    margin-left:50rem;
 }
 
 li {
@@ -82,7 +82,7 @@ a:hover {
 
 .container {
     /*show height: auto*/
-    height: auto;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,12 +90,15 @@ a:hover {
 }
 
 .cover-image {
+    background-color: rgba(57, 57, 58, 1);
     display: flex;
     justify-content: center;
-    max-width: 50%;
-    height:auto;
-    
+    margin: 0 1rem 0 1.5rem;
 }
+    .cover-image > img {
+    width: 100%;
+    height: auto;
+    }
 
 @media only screen and (maxwidth: 600px) {
     .cover-image {
@@ -125,7 +128,7 @@ a:hover {
 }
 
 /***********************************************************************
- *  Grid Panel
+ *  Gallery Grid Panel
  **********************************************************************/
 .grid-wrapper {
     display: grid;
@@ -151,6 +154,11 @@ a:hover {
         -o-transform: rotate(-2deg);
         transform: rotate(-2deg);
     }
+    
+.gallery-captions {
+    color: white;
+
+}
 
 /***********************************************************************
  *  Footer
